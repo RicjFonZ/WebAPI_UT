@@ -27,7 +27,7 @@ namespace WebAPI_UT.Tests.Controllers
         {
             var k = _weatherForecastController.Get();
 
-            
+            Assert.Pass();
         }
     }
 }
